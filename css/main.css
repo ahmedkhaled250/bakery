@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color: #7a7a7a;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 5%;
+}
+
+.logo {
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list ul li {
+    padding: 0px 10px;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.list ul li a:hover {
+    color: #8e7754;
+}
+
+header {
+    background-image: url(../img/cook.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    text-align: center;
+    width: 50%;
+}
+
+.item p {
+    color: rgba(255, 255, 255, .92);
+    font-weight: 700;
+    font-size: 150%;
+
+}
+
+.mouse {
+    width: 32px;
+    height: 50px;
+    border-radius: 24%;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+
+    border: 1px solid #fff;
+}
+
+.item h1 {
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding: 25px 0;
+    font-weight: 400;
+    font-size: 76px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Alegreya', serif;
+    color: black;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btn1 {
+    background-color: #8e7754;
+    border: transparent 2px solid;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about .image1 {
+    width: 50%;
+    padding: 30px;
+}
+
+.about .list-icon {
+    width: 50%;
+    padding: 40px;
+}
+
+li {
+    line-height: 60px;
+}
+
+li span {
+    padding-left: 15px;
+}
+
+.list-icon ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.icon {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 50%;
+    background-color: transparent;
+    color: #8e7754;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(248, 248, 248);
+}
+
+.text {
+    width: 50%;
+    padding: 30px;
+}
+
+.image2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.baking {
+    text-align: center;
+    padding: 50px;
+}
+
+.tree-d {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+}
+
+.our {
+    width: 33.33;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.text-icon {
+    width: 50%;
+    padding: 40px;
+}
+
+.text-icon ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-icon ul li i {
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #8e7754;
+}
+
+.map {
+    width: 50%;
+    padding: 40px;
+}
+
+.foooter {
+    background-color: #403d38;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.foooter div {
+    width: 25%;
+    padding: 15px;
+}
+
+.foooter div h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.foooter ul {
+    color: #969696;
+    list-style-type: none;
+    padding: 0;
+}
+
+.foooter a {
+    color: #969696;
+    text-decoration: none;
+}
+.foooter a span
+{
+transition: all 0.7s;
+}
+.foooter a span:hover
+{
+    color: #fff;
+}
+.before-max span
+{
+    padding-right: 10px;
+    font-size: 25px;
+}
+footer
+{
+    text-align: center;
+    background-color: #353330;
+    padding: 50px;
+}
+footer div
+{
+    width: 20%;
+    margin: auto;
+}
+footer div a
+{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #403d38;
+    padding: 10px;
+    color: #7a7a7a;
+}
+.fac{
+transition: all 0.5s;
+}
+.fac:hover
+{
+    background-color: blue;
+    color: #fff;
+}
+.google
+{
+    transition: all 0.5s;
+}
+.google:hover
+{
+    background-color: red;
+    color: #fff;
+}
+.link
+{
+    transition: all 0.5s;   
+}
+.link:hover
+{
+    background-color: #0275d8;
+    color: #fff;
+}
+.twit
+{
+    transition: all 0.5s;   
+}
+.twit:hover
+{
+    background-color: #0275d8;
+    color: #fff;
+}
